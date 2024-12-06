@@ -1,4 +1,5 @@
-@charset "utf-8";
+@charset "utf-8"; 
+/* este e o primeiro css */
 
 :root{
     --isa:black;
@@ -22,7 +23,7 @@
 
 body,
 html {
-    background-image: linear-gradient(to top, #482091, #f0f3f7, rgb(27, 253, 253));
+    background-image: linear-gradient(to top, #482091, #f0f3f7, #482091);
     height: 100vh;
     width: 100vw;
 }
@@ -39,7 +40,6 @@ section#login {
     left: 50%;
     overflow: hidden;
     /*tudo que for fora da borda recorta */
-    background-image: linear-gradient(to top, #482091, #c8eef5, rgb(0, 255, 255));
     width: 250px;
     height: 515px;
     border-radius: 17px;
@@ -122,7 +122,7 @@ form>div.campo {
 }
 
 form>input[type=submit]:hover {
-    background-color: #6c0fdf;
+    background-image: linear-gradient(to top, #482091, #f0f3f7, #482091);
 
 }
 
@@ -134,7 +134,7 @@ form>a.botao {
     height: 40%;
     padding-top: 7px;
     margin-top: 7px;
-    background-color: #fdfcff;
+    background-color: #;
     color: rgb(12, 1, 1);
     border: 1px solid #02010c;
     border-radius: 3px;
@@ -155,7 +155,7 @@ form>a.botao>span {
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body {
-        background-image: linear-gradient(to top, #482091, #f0f3f7, rgb(27, 253, 253));
+        background-image: linear-gradient(to top, #482091, #f0f3f7, #482091);
     }
 
     section#login {
@@ -184,7 +184,7 @@ form>a.botao>span {
 
 @media screen and (min-width: 993px) {
     body {
-        background-image: linear-gradient(to top, #482091, #f0f3f7, rgb(27, 253, 253));
+        background-image: linear-gradient(to top, #482091, #f0f3f7, #482091);
     }
 
     section#login {
